@@ -1,7 +1,7 @@
 name: Deploying stage
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 jobs:
